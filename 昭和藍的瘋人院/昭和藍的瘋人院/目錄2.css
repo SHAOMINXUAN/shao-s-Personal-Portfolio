@@ -1,0 +1,149 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+body {
+  position: relative;
+  background-image: url(./作品照片/10_画板\ 1\ 副本\ 8.jpg);
+  background-size: 100%;
+}
+
+    @font-face {
+        font-family: MyFont;
+        src: url(NISC18030.ttf);
+        
+      }
+      p {
+        font-family: 'MyFont';
+      }
+      
+
+#yuan1 {
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    position: unset;
+    bottom: 300px;
+    right: 900px;
+    background-color: rgb(32, 233, 255);
+    z-index: 1;
+    border: 3px solid black;
+}
+#yuan1:hover {
+background-color: rgb(255, 255, 255);
+}
+
+a {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.apple {
+  background-image: url(./作品照片/貼紙/貼紙-03.png);
+}
+.apple:hover {
+  background-image: url(./作品照片/貼紙/貼紙-08.png);
+}
+.spider {
+  background-image: url(./作品照片/貼紙/貼紙-04.png);
+}
+.spider:hover {
+  background-image: url(./作品照片/貼紙/貼紙-09.png);
+}
+.man {
+  background-image: url(./作品照片/貼紙/貼紙-07.png);
+}
+.man:hover {
+  background-image: url(./作品照片/貼紙/貼紙-10.png);
+}
+.cotton {
+  background-image: url(./作品照片/貼紙/貼紙-06.png);
+}
+.cotton:hover {
+  background-image: url(./作品照片/貼紙/貼紙-12.png);
+}
+.leg {
+  background-image: url(./作品照片/貼紙/貼紙-05.png);
+}
+.leg:hover {
+  background-image: url(./作品照片/貼紙/貼紙-11.png);
+}
+
+.spider1 {
+  position: absolute;
+  left: 0;
+  top: 400px;
+}
+.man1 {
+  position: absolute;
+  left: 20px;
+  bottom: 10px;
+  left: 100px;
+  height: 500px;
+}
+.cotton1 {
+  position: absolute;
+  top: 50px;
+  left: 350px;
+  transform: rotate(-90deg);
+}
+.leg1 {
+  position: absolute;
+  bottom: 0;
+  left: 350px;
+}
+.leg2 {
+  position: absolute;
+  top: 300px;
+  left: 600px;
+}
+.apple1 {
+  position: absolute;
+  left: 1000px;
+  bottom: 1000px;
+}
+.spider2 {
+  position: absolute;
+  top: 300px;
+  left: 800px;
+}
+.man2 {
+  position: absolute;
+  bottom: -50px;
+  left: 1000px;
+  transform: rotate(90deg);
+}
+.cotton2 {
+  position: absolute;
+  bottom: 130px;
+  left: 1300px;
+  transform: rotate(180deg);
+}
+.apple2 {
+  position: absolute;
+  right: 0;
+  bottom: -50px;
+}
+.spider3 {
+  position: absolute;
+  bottom: 0;
+  right: 300px;
+}
+.man3 {
+  position: absolute;
+  right: 0;
+  bottom: 500px;
+}
+.leg3 {
+  position: absolute;
+  top: 44px;
+  right: 0;
+}
+.cotton3 {
+  position: absolute;
+  bottom: 500px;
+  right: 600px;
+}

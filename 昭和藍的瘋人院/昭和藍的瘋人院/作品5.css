@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    width: 100%;
+}
+body {
+    background-image: url(./作品照片/天空2.jpg);
+    background-size: 100%;
+}
+#yuan1 {
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    position: unset;
+    bottom: 300px;
+    right: 900px;
+    background-color: rgb(32, 233, 255);
+    z-index: 1;
+    border: 3px solid black;
+}
+#yuan1:hover {
+background-color: rgb(255, 255, 255);
+}
+.main {
+    width: 100%;
+    padding: 90px;
+    box-sizing: border-box;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.left img {
+    margin-bottom: 24px;
+}
+.right {
+    position: fixed;
+    top: 90px;
+    right: -190px;
+    display: flex;
+    justify-content: flex-end;
+    width: 48%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: 73%;
+}
+.right:hover {
+    background-image: url('./作品照片/限制簡介_画板 1.png');
+}
