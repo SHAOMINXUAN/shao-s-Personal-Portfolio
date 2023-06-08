@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+body {
+    background-image: url(./作品照片/天空2.jpg);
+    background-size: 100%;
+}
+#yuan1 {
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    position: unset;
+    bottom: 300px;
+    right: 900px;
+    background-color: rgb(32, 233, 255);
+    z-index: 1;
+    border: 3px solid black;
+}
+#yuan1:hover {
+background-color: rgb(255, 255, 255);
+}
+
+
+.main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 60px;
+    box-sizing: border-box;
+}
+.top, .bottom {
+    display: flex;
+    justify-content: space-between;
+    height: 70%;
+}
+.top div, .bottom div {
+    width: 49%;
+}
+.top img {
+    width: 100%;
+    height: 100%;
+}
+.bottom {
+    margin-top: 24px;
+}
+.left, .right {
+    display: flex;
+    justify-content: space-around;
+}
+.left img, .right img {
+    width: 49%;
+    height: 100%;
+}
+.geek {
+    position: absolute;
+    width: 800px;
+    height: 1200px;
+    right: 30px;
+    transform: translate(0, 5%);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.geek:hover {
+    background-image: url(./作品照片/geek\ talk_画板\ 1.png);
+}
+

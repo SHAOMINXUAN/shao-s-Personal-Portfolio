@@ -41,6 +41,9 @@ a {
   background-repeat: no-repeat;
   background-size: 100%;
 }
+.introduction {
+  background-image: url(./貼紙/IMG_9121.PNG);
+}
 .apple {
   background-image: url(./作品照片/貼紙/貼紙-03.png);
 }
@@ -71,6 +74,8 @@ a {
 .leg:hover {
   background-image: url(./作品照片/貼紙/貼紙-11.png);
 }
+
+
 
 .spider1 {
   position: absolute;
